@@ -7,7 +7,7 @@ class Solution
 public:
   int lengthOfLongestSubstring(string s)
   {
-    unordered_set<char> charset;
+    unordered_set<char> charset;  //定义一个滑动窗口
     int left = 0, maxLength = 0;
 
     for (int right = 0; right < s.size(); right++)

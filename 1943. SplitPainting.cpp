@@ -1,7 +1,8 @@
 //
 // Created by Zhuoer LIU on 2025-06-10.
 //
-include<iostream>
+#include<iostream>
+#include<map>
 using namespace std;
 
 //差分数组的应用

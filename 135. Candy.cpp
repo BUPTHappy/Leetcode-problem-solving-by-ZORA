@@ -15,13 +15,13 @@ class Solution{
             //从左到右查一遍
             for (int i=1; i<child_n; i++){  //注意第二个条件
                 if(ratings[i]>ratings[i-1]){
-                    candies[i]+=1;
+                    candies[i] = candies[i-1]+1;
                 }
             }
             //再从右到左查一遍
             for (int i=child_n-1; i>0; i--){ //注意第二个条件
                 if(ratings[i-1]>ratings[i]){
-                    candies[i-1]+=1;
+                    candies[i-1] = max(candies[i-1],candies[i]+1);
                 }
             }
             return accumulate(candies.begin(),candies.end(),0);

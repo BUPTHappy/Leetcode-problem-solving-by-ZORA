@@ -21,6 +21,7 @@ public:
         return true;
     }
 
+    //一个辅助函数，用于判断一个序列是否为回文序列Palindrome
     bool isPalindrome(const string& s, int left, int right){
         for(int i=left, j=right; i<j; i++, j--){
             if(s[i]!=s[j]){

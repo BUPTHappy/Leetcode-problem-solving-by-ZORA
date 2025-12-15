@@ -5,7 +5,7 @@
 using namespace std;
 
 int singleNumber(vector<int>& nums) {
-    int m=3;
+    int m=3; //这里是因为我们提交的那个测试固定正常情况是3次
     vector<int> cnt(32);
     for(int n:nums){
         for(int i=0; i<32; i++){

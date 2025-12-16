@@ -1,7 +1,7 @@
 //
 // Created by Zhuoer LIU on 2025-12-17.
 //
-#include <uint32_t>
+#include <cstdint>
 class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {

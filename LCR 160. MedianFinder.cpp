@@ -4,7 +4,6 @@ using namespace std;
 class MedianFinder
 {
 public:
-  /** initialize your data structure here. */
   priority_queue<int> max_heap;
   priority_queue<int, vector<int>, greater<int>> min_heap;
 

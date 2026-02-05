@@ -1,3 +1,10 @@
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
 class RandomizedCollection
 {
 public:
